@@ -13,3 +13,14 @@ for (int i = 0; i < inputArray.Length; i++)
         outArr[index] = inputArray[i];
         index++;
     }
+
+    oid PrintArray(string [] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write($"{array[i]} ");
+    }
+}
+
+PrintArray(outArr);
+Console.ReadKey();
