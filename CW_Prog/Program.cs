@@ -17,11 +17,15 @@ for (int i = 0; i < inputArray.Length; i++)
 
 void PrintArray(string[] array) // Метод который печатает массив в консоль
 {
+
     for (int i = 0; i < array.Length; i++)
     {
         System.Console.Write($"{array[i]} ");
     }
 }
+System.Console.WriteLine("Заданный массив");
+PrintArray(inputArray);
+System.Console.WriteLine();
+System.Console.WriteLine("Массив который получился");
 PrintArray(outArr);
-System.Console.WriteLine("Нажмите на любую кнопку");
 Console.ReadKey();
