@@ -14,7 +14,7 @@ for (int i = 0; i < inputArray.Length; i++)
         index++;
     }
 
-    oid PrintArray(string [] array)
+void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
